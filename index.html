@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ToolNova offers simple free tools for creators: captions, hashtags, content ideas and video titles.">
+  <meta name="theme-color" content="#090909">
+  <title>ToolNova — Free Tools for Creators</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="ToolNova home"><span class="brand-mark">T</span> Tool<span>Nova</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#tools">Free tools</a>
+      <a href="#how">How it works</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="header-cta" href="#tools">Try free tools <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> SIMPLE TOOLS. BIGGER IDEAS.</div>
+        <h1>Make your next<br><span>great idea</span> happen.</h1>
+        <p class="hero-text">Free, easy-to-use tools that help creators plan posts, write captions, find hashtags and brainstorm video ideas.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#tools">Explore free tools <span>→</span></a>
+          <a class="text-link" href="#how">See how it works</a>
+        </div>
+        <div class="trust-line"><span class="check">✓</span> Free to use <span class="dot">·</span> No account needed <span class="dot">·</span> Works in your browser</div>
+      </div>
+      <div class="hero-visual" aria-label="ToolNova tools preview">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="nova-core"><span>N</span><small>TOOLNOVA</small></div>
+        <div class="float-card card-top"><span class="mini-icon red">✦</span><div><b>Fresh ideas</b><small>Ready to create</small></div></div>
+        <div class="float-card card-bottom"><span class="mini-icon">#</span><div><b>Creator toolkit</b><small>Four free tools</small></div></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">+</div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Tool highlights">
+      <div><strong>04</strong><span>Free tools</span></div>
+      <div><strong>$0</strong><span>To get started</span></div>
+      <div><strong>0</strong><span>Sign-up steps</span></div>
+      <div><strong>∞</strong><span>Ideas to explore</span></div>
+    </section>
+
+    <section class="tools-section section-wrap" id="tools">
+      <div class="section-heading">
+        <div><div class="eyebrow">THE TOOLKIT</div><h2>What are you creating <span>today?</span></h2></div>
+        <p>Choose a tool, add a little context and get a useful starting point in seconds.</p>
+      </div>
+
+      <div class="tool-grid">
+        <article class="tool-card">
+          <div class="tool-icon">✍</div><div class="tool-tag">01 / WRITING</div>
+          <h3>Caption Generator</h3><p>Draft engaging social captions for your next post.</p>
+          <button class="tool-open" data-tool="caption">Open tool <span>↗</span></button>
+        </article>
+        <article class="tool-card">
+          <div class="tool-icon">#</div><div class="tool-tag">02 / DISCOVERY</div>
+          <h3>Hashtag Ideas</h3><p>Get relevant hashtag suggestions for your topic.</p>
+          <button class="tool-open" data-tool="hashtags">Open tool <span>↗</span></button>
+        </article>
+        <article class="tool-card">
+          <div class="tool-icon">✦</div><div class="tool-tag">03 / IDEATION</div>
+          <h3>Content Ideas</h3><p>Find fresh angles for Reels and social posts.</p>
+          <button class="tool-open" data-tool="ideas">Open tool <span>↗</span></button>
+        </article>
+        <article class="tool-card">
+          <div class="tool-icon">▶</div><div class="tool-tag">04 / VIDEO</div>
+          <h3>Video Title Generator</h3><p>Create clear, curiosity-led titles for your videos.</p>
+          <button class="tool-open" data-tool="titles">Open tool <span>↗</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-section" id="how">
+      <div class="section-wrap how-inner">
+        <div><div class="eyebrow">GET STARTED IN THREE STEPS</div><h2>Less blank-page time.<br><span>More creating.</span></h2></div>
+        <div class="steps">
+          <div class="step"><span>1</span><div><b>Choose a tool</b><p>Pick the tool that matches the task you want to do.</p></div></div>
+          <div class="step"><span>2</span><div><b>Add your topic</b><p>Enter a few words to give the tool some direction.</p></div></div>
+          <div class="step"><span>3</span><div><b>Make it yours</b><p>Copy the result, edit it and make sure it fits your audience.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-mark">T<span>N</span></div>
+      <div><div class="eyebrow">ABOUT TOOLNOVA</div><h2>A practical starting point<br>for your next post.</h2><p>ToolNova is an independent creator toolkit. Our simple browser-based generators help you brainstorm and draft content. Always review and personalize generated suggestions before publishing.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#"><span class="brand-mark">T</span> Tool<span>Nova</span></a>
+    <p>Useful little tools for people making things.</p>
+    <div class="footer-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:hello@toolnova.example">Contact</a></div>
+    <small>© <span id="year"></span> ToolNova. Built for creators.</small>
+  </footer>
+
+  <div class="modal-backdrop" id="tool-modal" hidden>
+    <section class="tool-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close tool">×</button>
+      <div class="eyebrow">TOOLNOVA FREE TOOL</div>
+      <h2 id="modal-title">Caption Generator</h2>
+      <p class="modal-description" id="modal-description">Create a starting caption for your post.</p>
+      <label for="topic-input">What is your post about?</label>
+      <textarea id="topic-input" rows="3" maxlength="240" placeholder="Example: 3 free AI tools for students"></textarea>
+      <div class="form-row">
+        <div class="field-group"><label for="platform-input">Platform</label><select id="platform-input"><option>Instagram</option><option>Facebook</option><option>Both</option></select></div>
+        <div class="field-group"><label for="tone-input">Style</label><select id="tone-input"><option>Friendly</option><option>Curious</option><option>Professional</option><option>Funny</option></select></div>
+      </div>
+      <button class="button button-primary generate-button" id="generate-button">Generate ideas <span>→</span></button>
+      <div class="result-area" id="result-area" aria-live="polite">
+        <div class="result-placeholder">Your result will appear here.</div>
+      </div>
+      <p class="local-note">These tools run in your browser. They do not send your text to a server.</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
